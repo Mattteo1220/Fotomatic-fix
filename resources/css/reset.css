@@ -220,6 +220,42 @@ strong{
   width: 400px;
 }
 
+
+#filters-section{
+  background-color:#4a4a4a;
+  padding: 64px 0px 80px 0px;
+  
+}
+
+#filters-section .content{
+  text-align: center;
+}
+
+#filters-section .content h2{
+  opacity: 100%;
+  font-size: 36px;
+  color: white;
+  font-family: 'Roboto-Bold';
+}
+
+#filters-section .content h3{
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto-light';
+  line-height: 1.4;
+}
+
+#filters-section .images-container{
+  display: grid;
+  grid-template: 1fr / repeat(4, 250px);
+  overflow: hidden;
+  column-rule: 0px;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin: 0;
+}
+
+
 @media only screen and (min-width:500px) and (max-width:1300px) {
   .mobile{
     display:none;
