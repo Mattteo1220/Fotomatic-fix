@@ -249,13 +249,11 @@ strong{
 #filters-section .images-container{
   margin-right: 1%;
   margin-left: 1%;
-  display: grid;
-  grid-template: 1fr / repeat(4, 1fr);
-  grid-template-columns: auto auto;
+  display:flex;
+ justify-content: center;
 }
 
-#filters-section .images-container{
-  display: flex;
+#filters-section .images-container .image-container{
   width: 25%;
 }
 
