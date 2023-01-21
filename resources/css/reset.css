@@ -250,11 +250,12 @@ strong{
   margin-right: 1%;
   margin-left: 1%;
   display:flex;
- justify-content: center;
+  justify-content: center;
+  overflow:hidden;
 }
 
 #filters-section .images-container .image-container{
-  width: 25%;
+ width: 25%;
 }
 
 
