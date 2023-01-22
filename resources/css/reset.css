@@ -52,6 +52,8 @@ a {
   text-decoration: none;
 }
 
+/* Header */
+
 header{
   display: block;
   position: fixed;
@@ -97,9 +99,24 @@ header nav ul li {
   height: auto;
 }
 
+/*Tablet */
+@media only screen and (min-width: 480px) and (max-width: 991px){
+  /*Add styling */
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
+}
+
+/* Main Content */
+
 .main-content{
   margin-top: 90px;
 }
+
+/* Sign up section */
+
 
 #sign-up-section{
   background-image:url("../images/banner-landingpage.jpg");
@@ -171,6 +188,19 @@ strong{
   height: auto;
 }
 
+/*Tablet */
+@media only screen and (min-width: 480px) and (max-width: 991px){
+  /*Add styling */
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
+}
+
+
+/* Features section */
+
 #features-section{
   display:grid;
   justify-content: center;
@@ -220,6 +250,17 @@ strong{
   width: 400px;
 }
 
+/*Tablet */
+@media only screen and (min-width: 480px) and (max-width: 991px){
+  /*Add styling */
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
+}
+
+/* Filters section */
 
 #filters-section{
   background-color:#4a4a4a;
@@ -258,11 +299,21 @@ strong{
  width: 25%;
 }
 
+/*Tablet */
+@media only screen and (min-width: 480px) and (max-width: 991px){
+  /*Add styling */
+}
 
+/*Tablet */
 @media only screen and (min-width:500px) and (max-width:1300px) {
   .mobile{
     display:none;
   }
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
 }
 
 
@@ -286,6 +337,15 @@ strong{
   padding-right: 30px;
 }
 
+/*Tablet */
+@media only screen and (min-width: 479px) and (max-width: 991px){
+  /*Add styling */
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
+}
 
 /*footer section */
 
@@ -300,4 +360,14 @@ footer .content{
   font-family: 'Roboto-Regular';
   position: relative;
   top: 32px;
+}
+
+/*Tablet */
+@media only screen and (min-width: 479px) and (max-width: 991px){
+  /*Add styling */
+}
+
+/* Mobile */
+@media only screen and (max-width: 479px){
+
 }
