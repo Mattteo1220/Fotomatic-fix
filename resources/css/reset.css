@@ -102,11 +102,40 @@ header nav ul li {
 /*Tablet */
 @media only screen and (min-width: 480px) and (max-width: 991px){
   /*Add styling */
+
+  .desktop nav{
+    display:none;
+  }
+
+  .mobile nav{
+    display:none;
+  }
+
+  .nav-button{
+    background-color: #4a4a4a;
+    border-radius: 4px;
+    width: 408px;
+    height: 64px;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 26px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto-Medium';
+    line-height: 1.4;
+    border-width: 0px;
+  }
+
+
 }
 
 /* Mobile */
 @media only screen and (max-width: 479px){
 
+  .desktop{
+    display:none;
+  }
 }
 
 /* Main Content */
